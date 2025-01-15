@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "2b8c20d2-66bd-4bd5-989a-8f7ce604152d",
+		"name": "DESAFIO2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40935142"
+	},
+	"item": [
+		{
+			"name": "DESAFIO2.3 GET LOTE BY ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/desafioIDESA-2/DesafioTres/get_lote.php?id=00146",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"desafioIDESA-2",
+						"DesafioTres",
+						"get_lote.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "00146"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET by ID response 404",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/desafioIDESA-2/DesafioTres/get_lote.php?id=2012",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"desafioIDESA-2",
+						"DesafioTres",
+						"get_lote.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2012"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
